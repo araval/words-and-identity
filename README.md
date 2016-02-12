@@ -6,7 +6,7 @@ Consider the most frequently words used by different classes of people on their 
 <em>Left to right: Scientists, Authors, Musicians, Entertainers, Athletes, and Politicians.</em>
 </p>
 
-The data is conclusive: Scientists think more, love a lot less. Authors think and love equally, Musicians and sporty-folks only love, don't think. Politicians do neither. 
+The data is conclusive: Scientists think more, love a lot less. Authors think and love equally, musicians and athletes/sports-people only love, don't think. Politicians do neither. 
 
 All users say "thank you / thanks" and "new" way more that any other non-stopword word, so I added those two words to stopwords. 
 
