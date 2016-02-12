@@ -8,7 +8,7 @@ Consider the most frequently words used by different classes of people on their 
 
 The data is conclusive: Scientists think more, love a lot less; authors think and love equally; musicians and athletes only love, don't think; politicians apparently do neither. 
 
-Our words tell others who we are. So we can take a person's written words and have a model make a prediction about their identity. This little project is an attempt in that direction, with the training data being twitter. The final model of course will work with any kind of text, but it will not do well in non-normal-speech like contexts, for example research-papers or Wikipedia. 
+Our words tell others who we are. So we can take a person's written words and have a model make a prediction about their identity. This little project is an attempt in that direction, with the training data coming from twitter. The final model of course will work with any kind of text, but it will not do well in non-normal-speech like contexts, for example research-papers or Wikipedia. 
 
 ## Data
 For *athletes*, *musicians*, and *entertainers*, I got the hundred most followed users from <a href="http://twittercounter.com/pages/100/">twittercounter</a>. I got popular *scientists* from 
