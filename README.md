@@ -1,4 +1,4 @@
-# What Your Words Say
+# What Our Words Say
 
 Consider the most frequently words used by different classes of people on their twitter: 
 <p>
@@ -6,10 +6,9 @@ Consider the most frequently words used by different classes of people on their 
 <em>Left to right: Scientists, Authors, Musicians, Entertainers, Athletes, and Politicians.</em>
 </p>
 
-The data is conclusive: Scientists think more, love a lot less. Authors think and love equally, musicians and athletes/sports-people only love, don't think. Politicians do neither. 
+The data is conclusive: Scientists think more, love a lot less; authors think and love equally; musicians and athletes only love, don't think; politicians apparently do neither. 
 
-All users say "thank you / thanks" and "new" way more that any other non-stopword word, so I added those two words to stopwords. 
-
+Our words tell others who we are. So we can take a person's written words and have a model make a prediction about their identity. This little project is an attempt in that direction, with the training data being twitter. The final model of course will work with any kind of text, but it will not do well in non-normal-speech like contexts, for example research-papers or Wikipedia. 
 
 ## Data
 For *athletes*, *musicians*, and *entertainers*, I got the hundred most followed users from <a href="http://twittercounter.com/pages/100/">twittercounter</a>. I got popular *scientists* from 
