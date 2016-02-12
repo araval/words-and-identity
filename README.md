@@ -26,6 +26,25 @@ There are some users who tweet in English, as well as additional languages such 
 ## Model 
 With five classes - Scientists, Authors, Musicians, Athletes, and Politicians, I trained a logistic regression model for classification. The script predict.py loads the model and classifies text, which can be input via either file or *raw_input()*. The bash script *who_is_it.sh* takes a twitter- username, fetches tweets and outputs the class.
 
+## Examples
+
+Recent article from NYtimes on LIGO:
 ```
-USAGE:   bash who_is_it.sh <twitter-username>
+$ python predict.py
+Input text: A team of scientists announced on Thursday that they had heard and recorded the sound of two   
+black holes colliding a billion light-years away, a fleeting chirp that fulfilled the last prediction of   
+Einstein’s general theory of relativity.  
+ 
+         This person is most likely a scientist.
+
 ```
+
+Amy Goodman's twitter:
+```
+$ ./who_is_it.sh amygoodman_dn
+
+         This person could be either an author or a politician.
+
+```
+
+It works! :-) 
