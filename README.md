@@ -1,12 +1,12 @@
 # What Our Words Say
 
-Consider the most frequently words used by different classes of people on their twitter: 
+Consider the most frequently used words by different classes of people on their twitter:
 <p>
 <img src="https://github.com/araval/words-and-identity/blob/master/images/all.png" width = "1100px">
 <em>Left to right: Scientists, Authors, Musicians, Entertainers, Athletes, and Politicians.</em>
 </p>
 
-The data is conclusive: Scientists think more, love a lot less; authors think and love equally; musicians and athletes only love, don't think; politicians apparently do neither. 
+The data is conclusive: Scientists think more, love a lot less; authors think and love equally; musicians and athletes only love, don't think; politicians apparently do neither. All of them are very *thank*ful and share *new* things, so I removed those two words from the word clouds in order to see more interesting words. 
 
 Our words tell others who we are. So we can take a person's written words and have a model make a prediction about their identity. This little project is an attempt in that direction, with the training data coming from twitter. The final model of course will work with any kind of text, but it will not do well in non-normal-speech like contexts, for example research-papers or Wikipedia. 
 
