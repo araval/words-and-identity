@@ -1,5 +1,8 @@
 # What Our Words Say
 
+Note: The service I was using to fetch old tweets (greptweet) has been retired. This no longer works.
+
+
 Consider the most frequently used words by different classes of people on their twitter:
 <p>
 <img src="https://github.com/araval/words-and-identity/blob/master/images/all.png" width = "1100px">
@@ -46,5 +49,3 @@ $ ./who_is_it.sh amygoodman_dn
          This person could be either an author or a politician.
 
 ```
-
-It works! :-) 
